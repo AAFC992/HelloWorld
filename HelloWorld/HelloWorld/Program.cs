@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; using System.Collections.Generic; using System.Linq; using System.Text; using System.Threading.Tasks;
 
 namespace HelloWorld
 {
@@ -6,7 +6,6 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            Console.WriteLine("Hello World!");             Console.ReadLine();              var Juan = (10);             var Pedro = (5);             Console.WriteLine(Juan + Pedro);              if (Juan + Pedro > 10) Console.WriteLine("Castillo");         }
     }
 }
